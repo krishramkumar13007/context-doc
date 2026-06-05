@@ -39,7 +39,7 @@ This project stays small on purpose. It is a local workspace for preparing conte
 - No hosted prompt marketplace.
 - No AI API key required.
 
-Compression and GPT format splitting require an Anthropic API key. These features are planned for a future optional BYOK (bring-your-own-key) update.
+Model-powered compression and GPT format splitting are planned for a future optional BYOK (bring-your-own-key) update. BYOK should not be Anthropic-only; the goal is to support user-provided keys for compatible providers such as Anthropic, OpenAI, Gemini, or local/open model gateways.
 
 Your documents stay in your browser until you export them.
 
