@@ -24,10 +24,10 @@ This project stays small on purpose. It is a local workspace for preparing conte
 - Estimate token counts locally.
 - Save version history in browser localStorage.
 - Restore old versions without overwriting them.
-- Create a local compression preview for rough token budgets.
+- Create a local trim preview for rough token budgets.
 - Export context for Claude, Cursor, GPT, Gemini, and system prompts.
 - Download Cursor exports as `.cursorrules`.
-- Split GPT exports into "About you" and "How to respond" fields.
+- Preview GPT exports in "About you" and "How to respond" fields.
 
 ## What It Does Not Do
 
@@ -38,6 +38,8 @@ This project stays small on purpose. It is a local workspace for preparing conte
 - No Stripe.
 - No hosted prompt marketplace.
 - No AI API key required.
+
+Compression and GPT format splitting require an Anthropic API key. These features are planned for a future optional BYOK (bring-your-own-key) update.
 
 Your documents stay in your browser until you export them.
 
